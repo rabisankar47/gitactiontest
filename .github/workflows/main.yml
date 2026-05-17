@@ -8,8 +8,8 @@ jobs:
           runs-on: ubuntu-latest
           steps:
           - name: checkout code
-            uses: actions/check@v2
+            uses: actions/checkout@v2
           - name: print message
             run: echo 'Welcome to github action'
-            
+
 
